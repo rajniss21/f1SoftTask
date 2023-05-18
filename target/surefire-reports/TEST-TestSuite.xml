@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="112.911" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Acer\.cache\selenium\chromedriver\win32\113.0.5672.63\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Automation_Projects\F1Soft\Selenium_Java\target\test-classes;D:\Automation_Projects\F1Soft\Selenium_Java\target\classes;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.3\selenium-java-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.3\selenium-api-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.3\selenium-chrome-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Acer\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Acer\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Acer\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Acer\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Acer\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Acer\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Acer\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Acer\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.3\selenium-chromium-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.3\selenium-json-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.3\selenium-devtools-v85-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.3\selenium-devtools-v97-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v98\4.1.3\selenium-devtools-v98-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.3\selenium-devtools-v99-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.3\selenium-edge-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.3\selenium-firefox-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.3\selenium-ie-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.3\selenium-opera-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.3\selenium-remote-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\io\netty\netty-buffer\4.1.75.Final\netty-buffer-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-codec-http\4.1.75.Final\netty-codec-http-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-codec\4.1.75.Final\netty-codec-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-handler\4.1.75.Final\netty-handler-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-common\4.1.75.Final\netty-common-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.75.Final\netty-transport-classes-epoll-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.75.Final\netty-transport-classes-kqueue-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.75.Final\netty-transport-native-epoll-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.75.Final\netty-transport-native-kqueue-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.75.Final\netty-transport-native-unix-common-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport\4.1.75.Final\netty-transport-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-resolver\4.1.75.Final\netty-resolver-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-api\1.12.0\opentelemetry-api-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-context\1.12.0\opentelemetry-context-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.12.0\opentelemetry-exporter-logging-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.12.0-alpha\opentelemetry-sdk-metrics-1.12.0-alpha.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.12.0-alpha\opentelemetry-sdk-logs-1.12.0-alpha.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.12.0\opentelemetry-sdk-common-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.12.0\opentelemetry-sdk-extension-autoconfigure-spi-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.12.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.12.0-alpha.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.12.0\opentelemetry-sdk-trace-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.12.0\opentelemetry-sdk-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.12.0-alpha\opentelemetry-semconv-1.12.0-alpha.jar;C:\Users\Acer\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Acer\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\Acer\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Acer\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Acer\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Acer\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Acer\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Acer\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Acer\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.3\selenium-http-4.1.3.jar;C:\Users\Acer\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.3\selenium-safari-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.3\selenium-support-4.1.3.jar;C:\Users\Acer\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Acer\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Acer\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Acer\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Acer\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Acer\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\Acer\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\Acer\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Acer\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Acer\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Acer\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Acer\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Acer\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Acer\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Acer\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Acer\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Acer\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Acer\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Acer\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Acer\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Acer\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Acer\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Acer\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Acer\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Acer\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Acer\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Katmandu"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Acer\AppData\Local\Temp\surefire4503419685941772541\surefirebooter3137596488544394878.jar C:\Users\Acer\AppData\Local\Temp\surefire4503419685941772541 2023-05-18T13-04-15_217-jvmRun1 surefire2775769233719567255tmp surefire_011147188722147439917tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Automation_Projects\F1Soft\Selenium_Java\target\test-classes;D:\Automation_Projects\F1Soft\Selenium_Java\target\classes;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.3\selenium-java-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.3\selenium-api-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.3\selenium-chrome-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Acer\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Acer\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Acer\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Acer\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Acer\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Acer\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Acer\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Acer\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.3\selenium-chromium-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.3\selenium-json-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.3\selenium-devtools-v85-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.3\selenium-devtools-v97-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v98\4.1.3\selenium-devtools-v98-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.3\selenium-devtools-v99-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.3\selenium-edge-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.3\selenium-firefox-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.3\selenium-ie-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.3\selenium-opera-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.3\selenium-remote-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\io\netty\netty-buffer\4.1.75.Final\netty-buffer-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-codec-http\4.1.75.Final\netty-codec-http-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-codec\4.1.75.Final\netty-codec-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-handler\4.1.75.Final\netty-handler-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-common\4.1.75.Final\netty-common-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.75.Final\netty-transport-classes-epoll-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.75.Final\netty-transport-classes-kqueue-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.75.Final\netty-transport-native-epoll-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.75.Final\netty-transport-native-kqueue-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.75.Final\netty-transport-native-unix-common-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport\4.1.75.Final\netty-transport-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-resolver\4.1.75.Final\netty-resolver-4.1.75.Final.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-api\1.12.0\opentelemetry-api-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-context\1.12.0\opentelemetry-context-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.12.0\opentelemetry-exporter-logging-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.12.0-alpha\opentelemetry-sdk-metrics-1.12.0-alpha.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.12.0-alpha\opentelemetry-sdk-logs-1.12.0-alpha.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.12.0\opentelemetry-sdk-common-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.12.0\opentelemetry-sdk-extension-autoconfigure-spi-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.12.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.12.0-alpha.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.12.0\opentelemetry-sdk-trace-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.12.0\opentelemetry-sdk-1.12.0.jar;C:\Users\Acer\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.12.0-alpha\opentelemetry-semconv-1.12.0-alpha.jar;C:\Users\Acer\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Acer\.m2\repository\net\bytebuddy\byte-buddy\1.12.8\byte-buddy-1.12.8.jar;C:\Users\Acer\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Acer\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Acer\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Acer\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Acer\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Acer\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Acer\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Acer\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.3\selenium-http-4.1.3.jar;C:\Users\Acer\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.3\selenium-safari-driver-4.1.3.jar;C:\Users\Acer\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.3\selenium-support-4.1.3.jar;C:\Users\Acer\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Acer\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Acer\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Acer\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Acer\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Acer\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\Acer\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\Acer\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Acer\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Acer\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Acer\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Acer\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Acer\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Acer\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Acer\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Acer\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Acer\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Acer\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Acer\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Acer\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Acer\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Acer\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Acer\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Acer\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Acer\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Acer\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Acer"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Automation_Projects\F1Soft\Selenium_Java"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Acer\AppData\Local\Temp\surefire4503419685941772541\surefirebooter3137596488544394878.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
+    <property name="user.name" value="Acer"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Acer\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Acer\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="D:\Automation_Projects\F1Soft\Selenium_Java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\Acer\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.1\bin;C:\python\Scripts\;C:\python\;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;;C:\Users\Acer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Acer\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testToAddAdminUser" classname="Tests.AllTest" time="11.113">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1684394359031	geckodriver	INFO	Listening on 127.0.0.1:63022
+1684394359486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57576" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofileC2UHh8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684394360093	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684394360103	Marionette	INFO	Listening on port 64081
+Read port: 64081
+WebDriver BiDi listening on ws://127.0.0.1:57576
+1684394360340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 59703
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 18, 2023 1:04:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 18, 2023 1:04:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: a no-op implementation
+May 18, 2023 1:04:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 113.
+May 18, 2023 1:04:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57576/devtools/browser/e42089eb-821e-46ff-a0cb-38ef75de08e7
+May 18, 2023 1:04:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+]]></system-err>
+  </testcase>
+  <testcase name="testToAddAdminUser" classname="Tests.AllTest" time="16.215">
+    <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 57481
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 18, 2023 1:04:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 18, 2023 1:04:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: a no-op implementation
+May 18, 2023 1:04:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 113.
+May 18, 2023 1:04:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testToAddPimUser" classname="Tests.AllTest" time="17.258">
+    <system-out><![CDATA[=============Rajnish Pradhan
+]]></system-out>
+    <system-err><![CDATA[1684394393175	Marionette	INFO	Stopped listening on port 64081
+[Child 2584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 2584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 2584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 2584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 2584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 2584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 2584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 2584, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 11664, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: (new Error("IndexedDB: main/nimbus-preview getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1684394395247	geckodriver	INFO	Listening on 127.0.0.1:61471
+1684394395265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60019" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofilewHYPha"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684394396051	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684394396061	Marionette	INFO	Listening on port 64311
+Read port: 64311
+WebDriver BiDi listening on ws://127.0.0.1:60019
+1684394396332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60019/devtools/browser/c91929bb-a52b-42e7-a02b-8a83c0e7c879
+May 18, 2023 1:04:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+]]></system-err>
+  </testcase>
+  <testcase name="testToAddPimUser" classname="Tests.AllTest" time="26.699">
+    <system-out><![CDATA[=============Rajnish Pradhan
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 51145
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 18, 2023 1:05:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 18, 2023 1:05:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: a no-op implementation
+May 18, 2023 1:05:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 113.
+May 18, 2023 1:05:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testToAssertTheRequiredField" classname="Tests.AllTest" time="3.94">
+    <failure message="Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //a[contains(text(),&apos;Assign Leave&apos;)]&apos; (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(text(),'Assign Leave')]' (tried for 10 second(s) with 500 milliseconds interval)
+	at Tests.AllTest.testToAssertTheRequiredField(AllTest.java:75)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Assign Leave')]"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-1VCMKRE', ip: '172.168.10.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22a400b8c4a781230cfeed896a8a2506, findElement {using=xpath, value=//a[contains(text(),'Assign Leave')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Acer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64393/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a400b8c4a781230cfeed896a8a2506
+	at Tests.AllTest.testToAssertTheRequiredField(AllTest.java:75)
+]]></failure>
+    <system-err><![CDATA[1684394436613	Marionette	INFO	Stopped listening on port 64311
+[Child 4140, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4140, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4140, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4140, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4140, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4140, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4140, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 4140, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+!!! error running onStopped callback: TypeError: callback is not a function
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/focus-experiments getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1684394438563	geckodriver	INFO	Listening on 127.0.0.1:52174
+1684394438584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63259" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Acer\\AppData\\Local\\Temp\\rust_mozprofilea7zZa6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684394439594	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684394439605	Marionette	INFO	Listening on port 64572
+Read port: 64572
+WebDriver BiDi listening on ws://127.0.0.1:63259
+1684394439846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63259/devtools/browser/177c0f19-ffd4-4185-a4c1-3cc7133591ec
+May 18, 2023 1:05:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+]]></system-err>
+  </testcase>
+  <testcase name="testToAssertTheRequiredField" classname="Tests.AllTest" time="14.162">
+    <system-out><![CDATA[The actual text is Required
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,10 @@
+Helpers\Hooks.class
+PageObjects\LeavePage.class
+PageObjects\LoginPage.class
+PageObjects\LandingPage.class
+PageObjects\PIM.class
+PageObjects\DashboardPage.class
+Helpers\Helper.class
+PageObjects\MM_AdminPage.class
+PageObjects\MM_PIMPage.class
+Tests\AllTest.class

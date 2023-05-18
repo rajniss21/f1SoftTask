@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name=" Automation Suite" parallel="tests" thread-count="2">
+    <test name="Test for firefox">
+        <parameter name="browserName" value="firefox"/>
+        <classes>
+            <class name="Tests.AllTest">
+                <methods>
+                    <include name="testToAddAdminUser"/>
+                    <include name="testToAddPimUser"/>
+                    <include name="testToAssertTheRequiredField"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test For chrome">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="Tests.AllTest">
+                <methods>
+                    <include name="testToAddAdminUser"/>
+                    <include name="testToAddPimUser"/>
+                    <include name="testToAssertTheRequiredField"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
