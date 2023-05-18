@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class LeavePage {
 
@@ -23,14 +24,15 @@ public class LeavePage {
     @FindBy(xpath = "//button[@class=\"oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space\"]")
     WebElement AssignBtn;
 
-    public WebElement clickAssignLeaveTab(){
-        return AssignLeave;
+    public void clickAssignLeaveTab(){
+        AssignLeave.click();
     }
-    public WebElement clickAssignBtn(){
-        return AssignBtn;
+    public void clickAssignBtn(){
+        AssignBtn.click();
     }
-    public String getValidationText(){
-        String heading1 = ValidationMessage.getText();
-        return heading1;
+    public void getValidationText(){
+        String actualMessage =  ValidationMessage.getText();
+        String expectedMessage = "Required";
+        Assert.assertEquals(expectedMessage, actualMessage);
     }
 }

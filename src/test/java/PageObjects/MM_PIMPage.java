@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class MM_PIMPage {
     public WebDriver driver;
@@ -21,15 +22,18 @@ public class MM_PIMPage {
     WebElement SaveBtn;
     @FindBy(xpath = "//h6[@class='oxd-text oxd-text--h6 --strong']")
     WebElement employeeName;
-    public WebElement clickAddPimBtn(){
-        return AddPimBtn;
+    public void clickAddPimBtn(){
+        AddPimBtn.click();
     }
-   public WebElement setFirstName(){
-        return FirstName;
+   public void setFirstName(){
+        FirstName.sendKeys("Rajnish");
    }
-   public WebElement setLastName(){
-        return LastName;
+   public void setLastName(){LastName.sendKeys("Pradhan");
    }
-   public WebElement setSaveBtn(){return SaveBtn;}
-   public  WebElement getEmployeeName(){return employeeName;}
+   public void setSaveBtn(){SaveBtn.click();}
+   public  void getEmployeeName(){
+       String actualTitle =  employeeName.getText();
+       String expectedTitle = "Rajnish Pradhan";
+       Assert.assertEquals(expectedTitle, actualTitle);
+    }
 }
