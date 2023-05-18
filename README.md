@@ -6,4 +6,6 @@ TestNg Version : 7.5
 
 Test Suite : testNg.xml : All the test are grouped in this file where we can include and exclude tests.
 
+Test Ececution command : mvn test
+
 
