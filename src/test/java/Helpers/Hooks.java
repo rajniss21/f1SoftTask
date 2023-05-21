@@ -69,7 +69,7 @@ public class Hooks {
         waitForOption.until(ExpectedConditions.elementToBeClickable(elementToWait));
     }
 
-    public void jsClickExecuter(WebElement element){
+    public void jsClickExecutor(WebElement element){
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("arguments[0].click();", element);
     }

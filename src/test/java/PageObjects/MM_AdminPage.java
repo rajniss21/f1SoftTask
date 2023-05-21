@@ -56,10 +56,10 @@ public class MM_AdminPage {
 
     public void clickStatusDropdown() {status.click();}
         public void selectStatus () {adminRole_Status.click();}
-        public void setUsername () {username.sendKeys("rajnish");}
-        public void setPassword () {password.sendKeys("Admin123@");}
-        public void setConfirmPassword () {confirmPassword.sendKeys("Admin123@");}
+        public void setUsername (String adminPageUserName) {username.sendKeys(adminPageUserName);}
+        public void setPassword (String adminPagePassword) {password.sendKeys(adminPagePassword);}
+        public void setConfirmPassword (String adminPageConfirmPassword) {confirmPassword.sendKeys(adminPageConfirmPassword);}
         public void clickSaveBtn () {saveBtn.click();}
 
     }
-}
+

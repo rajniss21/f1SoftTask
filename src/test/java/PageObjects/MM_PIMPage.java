@@ -25,10 +25,10 @@ public class MM_PIMPage {
     public void clickAddPimBtn(){
         AddPimBtn.click();
     }
-   public void setFirstName(){
-        FirstName.sendKeys("Rajnish");
+   public void setFirstName(String firstName){
+        FirstName.sendKeys(firstName);
    }
-   public void setLastName(){LastName.sendKeys("Pradhan");
+   public void setLastName(String lastName){LastName.sendKeys(lastName);
    }
    public void setSaveBtn(){SaveBtn.click();}
    public  void getEmployeeName(){

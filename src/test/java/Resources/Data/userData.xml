@@ -7,4 +7,15 @@
     <!--<Valid Credentials>-->
     <entry key="username">Admin</entry>
     <entry key="password">admin123</entry>
+
+    <!--<User Details>-->
+    <entry key="firstName">admin123</entry>
+    <entry key="lastName">admin123</entry>
+
+    <!--<Add Admin Page Details>-->
+    <entry key="adminPageUserName">rajnish</entry>
+    <entry key="adminPagePassword">admin123@</entry>
+    <entry key="adminPageConfirmPassword">admin123@</entry>
+
+
 </properties>
