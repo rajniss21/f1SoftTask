@@ -21,6 +21,9 @@ public class LandingPage extends Hooks {
     @FindBy(xpath = "//li[@class='oxd-main-menu-item-wrapper'][3]")
     WebElement leave;
 
+    @FindBy(xpath = "//li[@class='oxd-main-menu-item-wrapper'][8]")
+    WebElement dashboard;
+
     public void clickAdminModule() {
         adminModule.click();
     }
@@ -29,5 +32,9 @@ public class LandingPage extends Hooks {
         pimModule.click();
     }
     public void clickOnLeaveModule(){leave.click();}
+
+    public void clickOnDashboardModule(){
+        dashboard.click();
+    }
 
 }
