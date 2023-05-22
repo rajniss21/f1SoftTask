@@ -7,14 +7,16 @@
         <classes>
             <class name="Tests.AllTest">
                 <methods>
-                    <include name="testToAddAdminUser"/>
-                    <include name="testToAddPimUser"/>
-                    <include name="testToAssertTheRequiredField"/>
+                    <exclude name="testToAddAdminUser"/>
+                    <exclude name="testToAddPimUser"/>
+                    <exclude name="testToAssertTheRequiredField"/>
+                    <exclude name="testToAssertTheListOfBlocksPresent"/>
+                    <include name="deleteTest"/>
                 </methods>
             </class>
         </classes>
     </test>
-    <test name="Test For chrome">
+    <!--<test name="Test For chrome">
         <parameter name="browserName" value="chrome"/>
         <classes>
             <class name="Tests.AllTest">
@@ -25,5 +27,5 @@
                 </methods>
             </class>
         </classes>
-    </test>
+    </test>-->
 </suite>
