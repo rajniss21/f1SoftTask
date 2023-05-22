@@ -1,9 +1,15 @@
 package PageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class MM_AdminPage {
     public WebDriver driver;
@@ -34,6 +40,15 @@ public class MM_AdminPage {
     @FindBy(xpath = "//div[@role='option']")
     WebElement selectEmployee;
 
+    @FindBy(xpath = "(//div[@class='oxd-table-cell oxd-padding-cell']/div/button[1])[2]")
+    WebElement deleteBtn;
+
+    @FindBy(xpath = "//span[@class='oxd-text oxd-text--span']")
+    WebElement totalNumberOfRecordsFound;
+
+    @FindBy(xpath = "//button[@class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin']")
+    WebElement areYouSure;
+
     public void selectEmployee() {
         selectEmployee.click();
     }
@@ -60,6 +75,31 @@ public class MM_AdminPage {
         public void setPassword (String adminPagePassword) {password.sendKeys(adminPagePassword);}
         public void setConfirmPassword (String adminPageConfirmPassword) {confirmPassword.sendKeys(adminPageConfirmPassword);}
         public void clickSaveBtn () {saveBtn.click();}
+
+        public void clickDeleteBtn() throws InterruptedException{
+
+        String numberOfRecordsText = totalNumberOfRecordsFound.getText();
+        String[] numberOfRecordsInArray = numberOfRecordsText.split("Records");
+        String numberStarting = numberOfRecordsInArray[0].replaceAll("[^0-9]","");
+        int number = Integer.parseInt(numberStarting);
+
+        for (int i = 0 ; i <=number ; i++){
+            if(deleteBtn.isDisplayed()){
+                JavascriptExecutor js = (JavascriptExecutor) driver;
+                js.executeScript("window.scrollBy(0,200)");
+                //Thread.sleep(3000);
+                deleteBtn.click();
+                Thread.sleep(2000);
+                areYouSure.click();
+               Thread.sleep(5000);
+            }else {
+                System.out.println("Delete button not displayed");
+                break;
+            }
+        }
+
+        }
+
 
     }
 

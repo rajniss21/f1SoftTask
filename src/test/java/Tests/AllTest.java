@@ -63,4 +63,27 @@ public class AllTest extends Hooks {
         Thread.sleep(2000);
         leavePageObj.getValidationText();
     }
+    @Test
+    public void testToAssertTheListOfBlocksPresent() throws InterruptedException{
+        DashboardPage dashboardPageObj = new DashboardPage(driver);
+
+        loginToTheModule();
+
+        dashboardPageObj.getAllTextOfHeaders();
+
+
+    }
+
+    @Test
+    public void deleteTest() throws InterruptedException{
+       LandingPage landingPageObj = new LandingPage(driver);
+       MM_AdminPage mmAdminPage = new MM_AdminPage(driver);
+
+       loginToTheModule();
+       landingPageObj.clickAdminModule();
+       Thread.sleep(5000);
+       mmAdminPage.clickDeleteBtn();
+
+
+    }
 }
